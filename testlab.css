@@ -1,0 +1,20 @@
+body {
+    background-color:  #009294 ;
+    color: #FFFFFF  ;
+  
+h1{
+    Background-color: yellow ;
+    Text-align: center;
+    color:black;
+}
+.custom-list li1::before {
+    content: "\2022";
+h3{
+    Font-size: 16pt;
+    Color: #FF0000 ;
+}
+ol{
+    Border-style: dashed;
+    Border-width: 4px;
+    Border-color: blue; 
+}
