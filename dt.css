@@ -10,8 +10,11 @@
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    background-color: #fff;
+}
 .navbar {
-    background-color: #A9A9A9;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -19,10 +22,9 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Use flexbox for horizontal alignment */
-    justify-content: space-around; /* Optional: to spread items evenly */
+    display: flex;
+    justify-content: space-around;
 }
-
 .navbar ul li {
     margin: 0;
 }
@@ -38,14 +40,14 @@
 
 .navbar ul li a:hover {
     background-color: #ddd;
-    color: black;
+    color: blue;
 }
 
 .navbar ul li a i {
     margin-right: 8px;
 }
 .home-section {
-    background-image: url('your-background-image.jpg'); /* Replace with your image */
+    background-image: url('your-background-image.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -86,9 +88,9 @@
 }
 .image-content img {
     width: 100%;
-    max-width: 300px; /* Limit the maximum width of the image */
-    border-radius: 50%; /* Make the image circular */
-    border: 5px solid white; /* Optional: Add a white border around the image */
+    max-width: 300px;
+    border-radius: 50%; 
+    border: 5px solid white; 
 }
 #home{
     color: black;
@@ -116,9 +118,9 @@ section {
     color: var(--text);
     transition: transform 0.3s ease;
     width: 100%;
-    max-width: 400px; /* Limit the maximum width of the image */
-    border-radius: 50%; /* Make the image circular */
-    border: 5px solid white; /* Optional: Add a white border around the image */
+    max-width: 400px; 
+    border-radius: 50%; 
+    border: 5px solid white;
 
 }
 .profile-image:hover img{
@@ -313,7 +315,7 @@ th {
     transition: transform 0.3s ease;
 }
 .testimonials :hover img {
-    transform: scale(1.1); /* Phóng to ảnh khi hover */
+    transform: scale(1.1);
   }
 
 .testimonial-text p {
@@ -426,7 +428,7 @@ label{
 section h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    text-align: center; /* Center the header */
+    text-align: center;
 }
 .links{
     color: beige;
